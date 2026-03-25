@@ -9,14 +9,14 @@
 <p align="center">
   📚 Estudiante de Tecnología en Sistemas de Información <br>
   💻 Apasionado por el Soporte Técnico, el Desarrollo Web y la Automatización <br>
-  🚀 En constante aprendizaje de tecnologías modernas como HTML, CSS, JavaScript, Node.js y React
+  🚀 En constante aprendizaje de tecnologías modernas como HTML, CSS, JavaScript, Node.js y React y PHP
 </p>
 
 ---
 
 ## 📌 Sobre mí
 
-🎓 Actualmente estoy cursando el 6° semestre de la carrera de Tecnología en Sistemas.  
+🎓 Actualmente estoy cursando el 7° semestre de la carrera de Tecnología en Sistemas.  
 🧠 Me interesa todo lo relacionado con redes, servidores, Active Directory y desarrollo web.  
 🔧 También tengo experiencia usando herramientas como GLPI, FusionInventory y Fortinet.
 
