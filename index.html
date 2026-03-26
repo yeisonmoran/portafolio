@@ -4,40 +4,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio profesional</title>
-    <Link rel="stylesheet" href="assets/css/estylo.css">
+    <title>Yeison Moran | Desarrollador Web & IT Support</title>
+    <link rel="stylesheet" href="assets/css/estylo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-
-
-    <header>
-
+    <header class="header">
+        <a href="#inicio" class="logo">Yeison.Dev</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
     </header>
 
     <main>
-        <section id="inicio">
-
+        <section id="inicio" class="inicio">
+            <div class="hero-texto">
+                <h3>Hola, yo soy</h3>
+                <h1>Yeison Moran</h1>
+                <h3>Y soy <span class="multiple-text"></span></h3>
+                <p>Estudiante de Tecnología en Sistemas con experiencia en Soporte Técnico IT. Transformando mis
+                    habilidades analíticas y de resolución de problemas en el desarrollo de soluciones web robustas y
+                    eficientes.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/yemoran12/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/yeisonmoran" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:moranyeison522@gmail.com"><i class='bx bxs-envelope'></i></a>
+                </div>
+                <a href="Documents/cv/Yeison_Lara_Soporte_TI.pdf" class="btn" download>Descargar CV</a>
+            </div>
+            <div class="hero-img">
+                <img src="assets/img/perfil.5.jpg" alt="Foto Perfil Yeison Moran">
+            </div>
         </section>
 
-        <section id="Sobre-mi">
-
+        <section id="sobre-mi" class="sobre-mi">
+            <h2 class="heading">Sobre <span>Mí</span></h2>
+            <div class="sobre-mi-content">
+                <div class="sobre-mi-text">
+                    <h3>De la Infraestructura al Código</h3>
+                    <p>Actualmente curso el 7° semestre de Tecnología en Sistemas de Información. Mi interés por
+                        entender cómo funcionan las cosas detrás de los sistemas empresariales me llevó a completar un
+                        año de experiencia en soporte IT, donde administré redes y manejé herramientas como Active
+                        Directory y sistemas de tickets.</p>
+                    <p>Esta experiencia me dio fundamentos invaluables para mi gran pasión: <strong>El Desarrollo
+                            Web</strong>. Hoy diseño interfaces atractivas, bases de datos eficientes y lógica de
+                        programación que los usuarios disfrutan.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-box"><i class='bx bxl-html5'></i> <span>HTML/CSS/JS</span></div>
+                    <div class="skill-box"><i class='bx bxl-php'></i> <span>PHP & MySQL</span></div>
+                    <div class="skill-box"><i class='bx bxl-tux'></i> <span>Linux / Redes</span></div>
+                    <div class="skill-box"><i class='bx bxs-server'></i> <span>Soporte & AD</span></div>
+                </div>
+            </div>
         </section>
 
-        <section id="experiencia">
-
+        <section id="experiencia" class="experiencia">
+            <h2 class="heading">Mi <span>Trayectoria</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Web (Proyecto)</h3>
+                        <p><strong>Gestión de Ventas e Inventario (Actualidad)</strong></p>
+                        <p>Diseño e implementación de un sistema web integral para el control de inventarios, registro
+                            de facturación y manejo de clientes. Uso avanzado de arquitectura SQL y plantillas AdminLTE.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Prácticas Soporte Técnico IT</h3>
+                        <p><strong>Agrícola Himalaya S.A. (1 Año)</strong></p>
+                        <p>Gestión de incidencias diarias, automatización de procesos menores, administración y control
+                            en Active Directory (Windows Server) y mantenimiento preventivo de software y hardware a
+                            nivel corporativo.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="proyectos">
+        <section id="proyectos" class="proyectos">
+            <h2 class="heading">Mis <span>Proyectos</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="assets/images/placeholder.jpg" alt="Sistema Gestión Ventas">
+                    <div class="portfolio-layer">
+                        <h4>Gestión de Ventas</h4>
+                        <p>Diseño e implementación de una aplicación web para la gestión de ventas de la tienda de
+                            cosméticos By Marnin</p>
+                        <a href="#"><i class='bx bx-code-alt'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="assets/images/placeholder.jpg" alt="Calculadora JavaScript">
+                    <div class="portfolio-layer">
+                        <h4>Calculadora DOM</h4>
+                        <p>App interactiva aplicando pura lógica de JS vanilla y CSS.</p>
+                        <a href="https://github.com/yeisonmoran/calculadora" target="_blank"><i
+                                class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="assets/images/placeholder.jpg" alt="Mi Portafolio">
+                    <div class="portfolio-layer">
+                        <h4>Mi Portafolio</h4>
+                        <p>Construido con HTML Semántico, Flexbox y Glassmorphism.</p>
+                        <a href="https://github.com/yeisonmoran/Portafolio-Profesional" target="_blank"><i
+                                class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="contacto" class="contacto">
+            <h2 class="heading">Contáctame <span>¡Hablemos!</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Tu Nombre Completo" required>
+                    <input type="email" placeholder="Tu Correo Electrónico" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Número de Teléfono">
+                    <input type="text" placeholder="Asunto" required>
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aquí..."
+                    required></textarea>
+                <input type="submit" value="Enviar Mensaje" class="btn">
+            </form>
         </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Yeison Moran | Transformando café en código</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#inicio"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
     </footer>
 
-
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="assets/js/fuction.js"></script>
 </body>
 
