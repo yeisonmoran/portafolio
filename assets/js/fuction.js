@@ -29,7 +29,7 @@ window.onscroll = () => {
 };
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Desarrollador Web Junior', 'Soporte IT Especializado', 'Especialista en Mantenimiento'], 
+    strings: ['Software Deloper', 'Technical Support', 'Help Desk'], 
     typeSpeed: 70, 
     backSpeed: 70, 
     backDelay: 1000, 
