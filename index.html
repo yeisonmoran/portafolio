@@ -1,178 +1,533 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Yeison Lara, desarrollador web junior full stack con experiencia práctica en el desarrollo de aplicaciones web."
+    />
+    <meta name="author" content="Yeison Lara" />
+    <meta name="theme-color" content="#07111f" />
+    <meta name="color-scheme" content="dark" />
+    <title>Yeison Lara | Desarrollador Web Junior Full Stack</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yeison Moran | Software Delope Web & IT Support</title>
-    <link rel="stylesheet" href="assets/css/estylo.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
+    <link rel="canonical" href="https://yeisonmoran.github.io/portafolio/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Yeison Lara | Desarrollador Web Junior Full Stack"
+    />
+    <meta
+      property="og:description"
+      content="Portafolio de Yeison Lara, desarrollador web junior full stack con experiencia práctica."
+    />
+    <meta
+      property="og:url"
+      content="https://yeisonmoran.github.io/portafolio/"
+    />
+    <meta
+      property="og:image"
+      content="https://yeisonmoran.github.io/portafolio/assets/img/portafolio-social.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Yeison Lara, desarrollador web junior full stack"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
 
-<body>
-    <header class="header">
-        <a href="#inicio" class="logo">Yeison.Dev</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#inicio" class="active">Inicio</a>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#proyectos">Proyectos</a>
+    <link rel="icon" href="assets/img/favicon-32.png" type="image/png" />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+    <!-- Encabezado y menú principal -->
+    <header class="site-header">
+      <div class="container header__inner">
+        <a class="brand" href="#inicio">
+          <span class="brand__mark" aria-hidden="true">YL</span>
+          <span>Yeison Lara</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+          aria-label="Abrir menú"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav
+          class="main-nav"
+          id="main-navigation"
+          aria-label="Navegación principal"
+        >
+          <a class="nav-link is-active" href="#inicio" aria-current="location"
+            >Inicio</a
+          >
+          <a class="nav-link" href="#perfil">Perfil</a>
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+          <a class="nav-link" href="#experiencia">Experiencia</a>
+          <a class="nav-link nav-link--cta" href="#contacto">Contacto</a>
         </nav>
+      </div>
     </header>
 
-    <main>
-        <section id="inicio" class="inicio">
-            <div class="hero-texto">
-                <h3>Hola, soy</h3>
-                <h1><strong>Yeison Lara</strong></h1>
-                <h3>Me especializo en <span class="multiple-text"></span></h3>
-                <p>Soluciono y diagnostico incidentes de los usarios asegurando
-                    que puedan seguir con susu actividades de trabajo sin ningun impedimento</p>
-                <div class="hero-texto">
-                    <p>Estado Actual: <strong>Buscando trabajo</strong></p>
-                </div>
-                <div class="social-media">
-                    <a href="https://www.linkedin.com/in/yemoran12/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/yeisonmoran" target="_blank"><i class='bx bxl-github'></i></a>
-                    <a href="mailto:yeison.lara.ti@gmail.com"><i class='bx bxs-envelope'></i></a>
-                </div>
-                <a href="./documentos/Soporete tecnico - cv.pdf" class="btn" download>Descargar CV</a>
-            </div>
-            <div class="hero-img">
-                <img src="assets/img/yeison2.png" alt="Foto Perfil Yeison Moran">
-            </div>
-        </section>
+    <main id="main-content" tabindex="-1">
+      <!-- 1. Presentación: lo primero que verá una persona -->
+      <section
+        class="hero section"
+        id="inicio"
+        aria-labelledby="hero-title"
+        tabindex="-1"
+      >
+        <div class="container hero__grid">
+          <div class="hero__content" data-reveal>
+            <p class="eyebrow">
+              <span class="status-dot" aria-hidden="true"></span>
+              Buscando oportunidades junior
+            </p>
 
-        <section id="sobre-mi" class="sobre-mi">
-            <h2 class="heading">Sobre <span>Mí</span></h2>
-            <div class="sobre-mi-content">
-                <div class="sobre-mi-text">
-                    <h3>Estudiante de Tecnologia en Sistemas de Informacion</h3>
-                    <p>
-                        Tecnólogo en Sistemas de Información último semestre (7°) UNIAJC, con 1 año de experiencia en
-                        soporte
-                        técnico
-                        presencial, remoto y administración de infraestructura TI. Especializado en la resolución de
-                        incidentes Nivel 1 y 2,
-                        gestión de usuarios en Active Directory / Microsoft 365 y atención estructurada a través de
-                        mesas de
-                        ayuda (GLPI).
-                        Destacado por mi alta capacidad de diagnóstico rápido, autonomía operativa y comunicación
-                        directa
-                        con
-                        usuarios finales para garantizar la continuidad del negocio.
+            <h1 id="hero-title">
+              Hola, soy <span>Yeison Lara</span>
+              <small>Desarrollador web junior <em>full stack.</em></small>
+            </h1>
+
+            <p class="hero__summary">
+              Construyo aplicaciones web que resuelven problemas reales. Combino
+              mi formación en Sistemas de Información con experiencia práctica
+              en soporte, redes y tecnología.
+            </p>
+
+            <div class="hero__actions">
+              <a class="button button--primary" href="#proyectos"
+                >Ver proyectos</a
+              >
+              <a
+                class="button button--secondary"
+                href="documentos/soporte-tecnico-cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver CV <span aria-hidden="true">↗</span>
+                <span class="sr-only">, abre el CV en una pestaña nueva</span>
+              </a>
+            </div>
+
+            <ul class="hero__stats">
+              <li>
+                <strong>2</strong>
+                <span>proyectos destacados</span>
+              </li>
+              <li>
+                <strong>1 año</strong>
+                <span>en soporte TI</span>
+              </li>
+              <li>
+                <strong>50+</strong>
+                <span>tickets al mes</span>
+              </li>
+            </ul>
+          </div>
+
+          <figure class="hero__visual" data-reveal>
+            <div class="hero__image-frame">
+              <img
+                src="assets/img/yeison-lara.jpg"
+                width="500"
+                height="500"
+                fetchpriority="high"
+                alt="Retrato de Yeison Lara"
+              />
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- 2. Perfil breve: quién es y qué sabe hacer -->
+      <section
+        class="section section--surface"
+        id="perfil"
+        aria-labelledby="profile-title"
+        tabindex="-1"
+      >
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <h2 id="profile-title">
+              Aprendo construyendo soluciones que la gente puede usar.
+            </h2>
+            <p>Un resumen claro de mi formación, enfoque y herramientas.</p>
+          </div>
+
+          <div class="profile-grid">
+            <article class="profile-copy" data-reveal>
+              <p class="profile-copy__lead">
+                Soy estudiante de
+                <strong>Tecnología en Sistemas de Información</strong> en la
+                Universidad Antonio José Camacho. Mi objetivo es comenzar como
+                desarrollador full stack junior y seguir aprendiendo con
+                proyectos reales.
+              </p>
+              <p>
+                Antes de enfocarme en el desarrollo web trabajé en soporte
+                técnico. Esa experiencia me enseñó a analizar problemas, seguir
+                un proceso y comunicar soluciones de forma clara. Ahora aplico
+                esa misma lógica para construir interfaces y sistemas web más
+                útiles.
+              </p>
+
+              <div class="learning-note">
+                <span aria-hidden="true">↗</span>
+                <p>
+                  <strong>Estoy creciendo en:</strong> JavaScript, SQL, Git y
+                  buenas prácticas para crear APIs fáciles de mantener.
+                </p>
+              </div>
+            </article>
+
+            <div class="toolbox" data-reveal>
+              <article class="tool-group">
+                <p class="tool-group__title">Frontend</p>
+                <ul class="tag-list">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Vite</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </article>
+
+              <article class="tool-group">
+                <p class="tool-group__title">Backend y datos</p>
+                <ul class="tag-list">
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>MySQL</li>
+                  <li>Prisma</li>
+                  <li>APIs REST</li>
+                  <li>Postman</li>
+                </ul>
+              </article>
+
+              <article class="tool-group">
+                <p class="tool-group__title">Herramientas</p>
+                <ul class="tag-list">
+                  <li>Git</li>
+                  <li>GitHub</li>
+                  <li>PowerShell</li>
+                  <li>Linux</li>
+                  <li>GLPI</li>
+                  <li>Active Directory</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Proyectos: la parte más importante para demostrar lo que sabe hacer -->
+      <section
+        class="section"
+        id="proyectos"
+        aria-labelledby="projects-title"
+        tabindex="-1"
+      >
+        <div class="container">
+          <div class="section-heading section-heading--row" data-reveal>
+            <div>
+              <h2 id="projects-title">No solo aprendí; también construí.</h2>
+            </div>
+            <p>
+              Dos soluciones que muestran cómo convierto una necesidad en
+              código.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card project-card--featured" data-reveal>
+              <div
+                class="project-preview project-preview--store"
+                aria-hidden="true"
+              >
+                <div class="preview-window">
+                  <div class="preview-window__bar">
+                    <span></span><span></span><span></span>
+                    <small>By Marnin</small>
+                  </div>
+                  <div class="store-preview">
+                    <div class="store-preview__sidebar">
+                      <img
+                        src="assets/img/Logo.png"
+                        width="772"
+                        height="510"
+                        loading="lazy"
+                        decoding="async"
+                        alt=""
+                      />
+                      <i></i><i></i><i></i>
+                    </div>
+                    <div class="store-preview__content">
+                      <div class="store-preview__title"></div>
+                      <div class="store-preview__cards">
+                        <span></span><span></span><span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span>Proyecto destacado</span>
+                  <span>Full stack</span>
+                  <span>Requiere iniciar sesión</span>
+                </div>
+                <h3>Gestión de ventas — By Marnin</h3>
+                <p>
+                  Aplicación web para organizar productos, categorías, clientes,
+                  usuarios, ventas e inventario de una tienda de cosméticos.
+                </p>
+                <p class="project-card__impact">
+                  <strong>Mi aporte:</strong> interfaz en React, API con Node.js
+                  y Express, modelo de datos con Prisma y conexión con MySQL.
+                </p>
+
+                <ul class="tag-list tag-list--compact">
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>Prisma</li>
+                  <li>MySQL</li>
+                </ul>
+
+                <div class="project-card__links">
+                  <a
+                    class="text-link"
+                    href="https://tienda-by-marnin.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Abrir aplicación <span aria-hidden="true">↗</span>
+                    <span class="sr-only"
+                      >, abre By Marnin en una pestaña nueva</span
+                    >
+                  </a>
+                  <a
+                    class="text-link text-link--muted"
+                    href="https://github.com/yeisonmoran/tienda_by_marnin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver código <span aria-hidden="true">↗</span>
+                    <span class="sr-only">
+                      de By Marnin en GitHub, abre en una pestaña nueva</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div
+                class="project-preview project-preview--inventory"
+                aria-hidden="true"
+              >
+                <div class="terminal-window">
+                  <div class="terminal-window__bar">
+                    <span></span><span></span><span></span>
+                    <small>inventario.ps1</small>
+                  </div>
+                  <div class="terminal-window__body">
+                    <p><i>PS&gt;</i> .\Inventario-Dominio.ps1</p>
+                    <p class="terminal-success">
+                      ✓ Inventario generado correctamente
                     </p>
-                    <p>Esta experiencia me dio fundamentos invaluables para mi gran pasión: <strong>El Desarrollo
-                            Web</strong>. Hoy diseño interfaces atractivas, bases de datos eficientes y lógica de
-                        programación que los usuarios disfrutan.</p>
+                    <div class="terminal-progress"><span></span></div>
+                    <ul>
+                      <li><span>Equipo</span><strong>48</strong></li>
+                      <li><span>CPU / RAM</span><strong>OK</strong></li>
+                      <li><span>SO / Disco</span><strong>OK</strong></li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="skills-grid">
-                    <div class="skill-box"><i class='bx bxl-html5'></i> <span>HTML/CSS/JS</span></div>
-                    <div class="skill-box"><i class='bx bxl-php'></i> <span>PHP & MySQL</span></div>
-                    <div class="skill-box"><i class='bx bxl-tux'></i> <span>Linux / Redes</span></div>
-                    <div class="skill-box"><i class='bx bxs-server'></i> <span>Soporte & AD</span></div>
+              </div>
+
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span>Automatización</span>
+                  <span>PowerShell</span>
                 </div>
+                <h3>IT Inventory Automation</h3>
+                <p>
+                  Scripts que recopilan información técnica de equipos locales o
+                  conectados a Active Directory y generan un reporte
+                  estructurado para revisión.
+                </p>
+                <p class="project-card__impact">
+                  <strong>Mi aporte:</strong> automatizé la consulta de
+                  hardware, sistema operativo, disco, IP y usuario para reducir
+                  tareas manuales repetitivas.
+                </p>
+
+                <ul class="tag-list tag-list--compact">
+                  <li>PowerShell</li>
+                  <li>WMI / CIM</li>
+                  <li>Active Directory</li>
+                  <li>Excel</li>
+                </ul>
+
+                <div class="project-card__links">
+                  <a
+                    class="text-link"
+                    href="https://github.com/yeisonmoran/IT-Inventory-Automation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver código <span aria-hidden="true">↗</span>
+                    <span class="sr-only">
+                      de IT Inventory Automation en GitHub, abre en una pestaña
+                      nueva</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="practice-note" data-reveal>
+            <p>También practico fundamentos con Python.</p>
+            <a
+              class="text-link text-link--muted"
+              href="https://github.com/yeisonmoran/projects_python"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver ejercicios <span aria-hidden="true">↗</span>
+              <span class="sr-only">
+                de Python en GitHub, abre en una pestaña nueva</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Experiencia: datos reales que respaldan el perfil -->
+      <section
+        class="section section--surface"
+        id="experiencia"
+        aria-labelledby="experience-title"
+        tabindex="-1"
+      >
+        <div class="container experience-grid">
+          <div class="section-heading section-heading--left" data-reveal>
+            <h2 id="experience-title">
+              Experiencia que me ayuda a construir mejor.
+            </h2>
+            <p>
+              Mi trabajo en soporte me dio una base práctica para entender
+              usuarios, sistemas, redes y la importancia de crear soluciones
+              claras.
+            </p>
+          </div>
+
+          <article class="experience-card" data-reveal>
+            <div class="experience-card__header">
+              <div>
+                <p class="experience-card__company">Agrícola Himalaya S.A.</p>
+                <h3>Soporte técnico TI</h3>
+              </div>
+              <p class="experience-card__period">1 año</p>
             </div>
-        </section>
 
-        <section id="experiencia" class="experiencia">
-            <h2 class="heading">Mi <span>Trayectoria</span></h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Prácticas Soporte Técnico IT</h3>
-                        <p><strong style="font-size: 16px; color: aqua;">Agrícola Himalaya S.A. (1 Año)</strong></p>
-                        <p>
-                        <ul>
-                            <li style="font-size: 13px;">Gestioné más de 50 tickets mensuales en GLPI, logrando atención
-                                oportuna y cierre
-                                efectivo
-                                de incidentes
-                                técnicos.</li>
-                            <li style="font-size: 13px;">Brindé soporte técnico presencial y remoto a +30 usuarios
-                                internos en hardware,
-                                software y
-                                conectividad
-                                de red.</li>
-                            <li style="font-size: 13px;">Administré cuentas y permisos de usuarios en Active Directory y
-                                Microsoft 365
-                                (Outlook,
-                                Teams).</li>
-                            <li style="font-size: 13px;">Diagnostiqué y resolví problemas de conectividad de red (IP,
-                                DNS, impresoras en red).
-                            </li>
-                            <li style="font-size: 13px;">Realicé instalación, configuración y mantenimiento
-                                preventivo/correctivo de equipos
-                                de
-                                cómputo y
-                                periféricos.</li>
-                            <li style="font-size: 13px;">Mantuve actualizado el inventario tecnológico de equipos
-                                asignados en la organización.
-                            </li>
-                        </ul>
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Desarrollador Web(Independiente)</h3>
-                        <i style="font-size: 16px; color: aqua;">Tienda de Cosmeticos By Marnin Makeup</i>
-                        <p><strong>Gestión de Ventas e Inventario</strong></p>
-                        <p>Diseño e implementacion de un sistema web para la gestion de Ventas.
-                            El sistema cuenta con una interfaz moderna con tecnologias actuales, tiene modelos
-                            estructurados
-                            como productos, ventas, categoria, inventario, clientes etc..
-                        </p>
-                        <br>
-                        <p>
-                            Cada modelo cuenta con las funciones necesarias para que el usuario gestione sus ventas, el
-                            sistema
-                            no es complejo y es facil de manejar.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <ul class="achievement-list">
+              <li>
+                Gestioné más de 50 tickets mensuales en <strong>GLPI</strong>,
+                siguiendo cada incidente hasta su cierre.
+              </li>
+              <li>
+                Brindé soporte presencial y remoto a más de 30 usuarios en
+                hardware, software y conectividad.
+              </li>
+              <li>
+                Administré cuentas y permisos en
+                <strong>Active Directory y Microsoft 365</strong>.
+              </li>
+              <li>
+                Diagnosticé problemas de IP y DNS, resolví la conectividad de
+                impresoras y realicé mantenimiento de equipos.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-        <section id="proyectos" class="proyectos">
-            <h2 class="heading">Mis <span>Proyectos</span></h2>
-            <div class="portfolio-container">
-                <div class="portfolio-box">
-                    <img src="assets/img/Logo.png" alt="Sistema Gestión Ventas">
-                    <div class="portfolio-layer">
-                        <h4>Gestión de Ventas</h4>
-                        <p>Diseño e implementación de una aplicación web para la gestión de ventas de la tienda de
-                            cosméticos By Marnin</p>
-                        <a href="https://github.com/yeisonmoran/tienda_by_marnin" target="_blank"><i
-                                class='bx bx-code-alt'></i></a>
-                    </div>
-                </div>
+      <!-- 5. Contacto: llamada a la acción directa -->
+      <section
+        class="section contact"
+        id="contacto"
+        aria-labelledby="contact-title"
+        tabindex="-1"
+      >
+        <div class="container contact__card" data-reveal>
+          <div>
+            <p class="section-label">04 · Contacto</p>
+            <h2 id="contact-title">¿Buscas un desarrollador web junior?</h2>
+            <p>Cuéntame qué necesitas construir. Estaré feliz de conversar.</p>
+          </div>
 
-                <div class="portfolio-box">
-                    <div class="portfolio-cover"><i class='bx bxl-python'></i></div>
-                    <div class="portfolio-layer">
-                        <h4>Proyectos realizados con python</h4>
-                        <a href="https://github.com/yeisonmoran/projects_python" target="_blank"><i
-                                class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+          <div class="contact__actions">
+            <a class="contact-email" href="mailto:yeison.lara.ti@gmail.com">
+              yeison.lara.ti@gmail.com <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="button button--primary"
+              href="documentos/soporte-tecnico-cv.pdf"
+              download
+            >
+              Descargar CV
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-        <footer class="footer">
-            <div class="footer-text">
-                <p>Copyright &copy; 2026 by Yeison Moran | Transformando café en código</p>
-            </div>
-            <div class="footer-iconTop">
-                <a href="#inicio"><i class='bx bx-up-arrow-alt'></i></a>
-            </div>
-        </footer>
+    <footer class="site-footer">
+      <div class="container footer__inner">
+        <p>
+          © <span id="current-year">2026</span> Yeison Lara. Hecho con intención
+          y muchas ganas de crecer.
+        </p>
+        <nav class="social-links" aria-label="Redes y contacto">
+          <a
+            href="https://github.com/yeisonmoran"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+            <span class="sr-only">, abre GitHub en una pestaña nueva</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yemoran12/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+            <span class="sr-only">, abre LinkedIn en una pestaña nueva</span>
+          </a>
+          <a href="mailto:yeison.lara.ti@gmail.com">Email</a>
+        </nav>
+      </div>
+    </footer>
 
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-        <script src="assets/js/fuction.js"></script>
-</body>
-
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
